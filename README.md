@@ -3,18 +3,18 @@
 
 ## Development Requirements
 - Header section:
-    - [] Profile image
+    - [ ] Profile image
 - Intro section:
-    - [] Name
-    - [] Job Title
-    - [] Website link
+    - [ ] Name
+    - [ ] Job Title
+    - [ ] Website link
 - Contact section:
-    - [] Email button
-    - [] LinkedIn button
+    - [ ] Email button
+    - [ ] LinkedIn button
 - About section:
-    - [] Person's professional background
-    - [] Person's interests
+    - [ ] Person's professional background
+    - [ ] Person's interests
 - Social Media:
-    - [] Facebook button
-    - [] Instagram button
-    - [] GitHub button
+    - [ ] Facebook button
+    - [ ] Instagram button
+    - [ ] GitHub button
