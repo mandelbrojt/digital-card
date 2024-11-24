@@ -2,9 +2,19 @@
 > A digital business card made with React
 
 ## Development Requirements
-[] Fill in your own information
-[] Separate components for:
-    [] Information (images, name, buttons, etc.)
-    [] About
-    [] Interests
-    [] Footer (social icons)
+- Header section:
+    - [] Profile image
+- Intro section:
+    - [] Name
+    - [] Job Title
+    - [] Website link
+- Contact section:
+    - [] Email button
+    - [] LinkedIn button
+- About section:
+    - [] Person's professional background
+    - [] Person's interests
+- Social Media:
+    - [] Facebook button
+    - [] Instagram button
+    - [] GitHub button
