@@ -2,12 +2,12 @@
 > A digital business card made with React
 
 ## Development Status
-1. Header section:
-    - [ ] Profile image
+1. Avatar section:
+    - [X] Profile image
 2. Intro section:
-    - [ ] Name
-    - [ ] Job Title
-    - [ ] Website link
+    - [X] Name
+    - [X] Job Title
+    - [X] Website link
 3. Contact section:
     - [ ] Email button
     - [ ] LinkedIn button
