@@ -1,20 +1,20 @@
 # Digital React Card
 > A digital business card made with React
 
-## Development Requirements
-- Header section:
+## Development Status
+1. Header section:
     - [ ] Profile image
-- Intro section:
+2. Intro section:
     - [ ] Name
     - [ ] Job Title
     - [ ] Website link
-- Contact section:
+3. Contact section:
     - [ ] Email button
     - [ ] LinkedIn button
-- About section:
+4. About section:
     - [ ] Person's professional background
     - [ ] Person's interests
-- Social Media:
+5. Social Media:
     - [ ] Facebook button
     - [ ] Instagram button
     - [ ] GitHub button
