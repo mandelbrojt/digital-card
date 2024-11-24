@@ -1,4 +1,14 @@
 body {
-    background-color: #23252C;
+    background-color: #F5F5F5;
     font-family: "Inter", serif;
+}
+
+#root {
+    padding: 44px 116px;
+    text-align: center;
+}
+
+.avatar-img {
+    width: 317px;
+    height: 317px;
 }
