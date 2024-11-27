@@ -8,6 +8,13 @@ body {
     text-align: center;
 }
 
+.app {
+    width: 317px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
 .avatar-img {
     width: 317px;
     height: 317px;
