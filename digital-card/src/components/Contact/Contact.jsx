@@ -6,11 +6,11 @@ export default function Contact() {
     return (
         <div className="contact-section">
             <button className="email-button contact-button">
-                <img className="email-icon" src={MailIcon} alt="Email icon" />
+                <img className="email-icon contact-icon" src={MailIcon} alt="Email icon" />
                 <p className="mail-text">Email</p>
             </button>
             <button className="linkedin-button contact-button">
-                <img src={LinkedinIcon} alt="LinkedIn icon" />
+                <img className="linkedin-icon contact-icon" src={LinkedinIcon} alt="LinkedIn icon" />
                 <p className="linkedin-text">LinkedIn</p>
             </button>
         </div>
