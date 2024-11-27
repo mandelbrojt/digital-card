@@ -25,14 +25,14 @@ body {
 .contact-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 17px;
 }
 
 .contact-button {
     /* Shape */
     width: 115px;
     height: 34px;
-    background-color: #FFFFFF;
     border: 1px solid #D1D5DB;
     border-radius: 6px;
     /* Position */
@@ -44,14 +44,35 @@ body {
     padding: 9px 28.5px;
 }
 
-.email-icon {
+.contact-icon {
     width: 16px;
     height: 16px;
+}
+
+.icon-text {
+    font-size: 14px;
+    font-weight:500;
+    margin: 0;
+}
+
+.email-button {
+    background-color: #FFFFFF;
+}
+
+.email-icon {
     color: #1E1F26;
 }
 
+
 .mail-text {
-    font-size: 14px;
-    font-weight:500;
     color: #374151;
+}
+
+.linkedin-button {
+    background-color: #297FE5;
+    color: #FFFFFF;
+}
+
+.linkedin-text {
+    
 }
