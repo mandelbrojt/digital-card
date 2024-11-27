@@ -12,3 +12,39 @@ body {
     width: 317px;
     height: 317px;
 }
+
+/* CONTACT SECTION STYLES */
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-button {
+    /* Shape */
+    width: 115px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    /* Position */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    /* Spacing */
+    padding: 9px 28.5px;
+}
+
+.email-icon {
+    width: 16px;
+    height: 16px;
+    color: #1E1F26;
+}
+
+.mail-text {
+    font-size: 14px;
+    font-weight:500;
+    color: #374151;
+}
