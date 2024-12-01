@@ -8,11 +8,11 @@ export default function Contact() {
         <div className="contact-section">
             <button className="mail-button contact-button">
                 <HiOutlineEnvelope className="mail-icon contact-icon" />
-                <p className="mail-text">Email</p>
+                <p className="mail-text icon-text">Email</p>
             </button>
             <button className="linkedin-button contact-button">
                 <CiLinkedin className="linkedin-icon contact-icon" />
-                <p className="linkedin-text">LinkedIn</p>
+                <p className="linkedin-text icon-text">LinkedIn</p>
             </button>
         </div>
     )
