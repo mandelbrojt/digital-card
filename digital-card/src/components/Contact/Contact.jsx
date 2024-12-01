@@ -1,16 +1,17 @@
 import React from "react"
-import MailIcon from "../../assets/mail-icon.png"
-import LinkedinIcon from "../../assets/linkedin-icon.png"
+
+import { HiOutlineEnvelope } from "react-icons/hi2";
+import { CiLinkedin } from "react-icons/ci";
 
 export default function Contact() {
     return (
         <div className="contact-section">
             <button className="email-button contact-button">
-                <img className="email-icon contact-icon" src={MailIcon} alt="Email icon" />
+                <HiOutlineEnvelope className="mail-icon contact-icon" />
                 <p className="mail-text">Email</p>
             </button>
             <button className="linkedin-button contact-button">
-                <img className="linkedin-icon contact-icon" src={LinkedinIcon} alt="LinkedIn icon" />
+                <CiLinkedin className="linkedin-icon contact-icon" />
                 <p className="linkedin-text">LinkedIn</p>
             </button>
         </div>
