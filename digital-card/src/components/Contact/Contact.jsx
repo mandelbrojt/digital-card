@@ -6,7 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 export default function Contact() {
     return (
         <div className="contact-section">
-            <button className="email-button contact-button">
+            <button className="mail-button contact-button">
                 <HiOutlineEnvelope className="mail-icon contact-icon" />
                 <p className="mail-text">Email</p>
             </button>
