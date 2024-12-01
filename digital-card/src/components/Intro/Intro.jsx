@@ -6,7 +6,7 @@ export default function Intro() {
             <h1 className="user-name">Luigi</h1>
             <h3 className="user-role">Frontend Developer</h3>
             <a className="portfolio-link" href="https://github.com/mandelbrojt" target="_blank">
-                <p className="short-link">My Portfolio</p>
+                <p className="short-link">luigis.website</p>
             </a>
         </div>
     )
