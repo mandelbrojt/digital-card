@@ -16,8 +16,8 @@ body {
 }
 
 .avatar-img {
-    width: 317px;
-    height: 317px;
+    width: 250px;
+    height: 250px;
 }
 
 /* CONTACT SECTION STYLES */
@@ -59,8 +59,8 @@ body {
     background-color: #FFFFFF;
 }
 
-.email-icon {
-    color: #1E1F26;
+.mail-icon {
+    color: #241e26;
 }
 
 
@@ -70,9 +70,12 @@ body {
 
 .linkedin-button {
     background-color: #297FE5;
-    color: #FFFFFF;
 }
 
 .linkedin-text {
-    
+    color: #FFFFFF;
+}
+
+.linkedin-icon {
+    color: #FFFFFF;
 }
