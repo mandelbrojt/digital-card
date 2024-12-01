@@ -20,6 +20,38 @@ body {
     height: 250px;
 }
 
+/* INTRO SECTION STYLES */
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 17px;
+}
+
+.user-name, .user-role, .short-link {
+    margin: 0;
+}
+
+.user-name {
+    color: #2B283A;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.user-role {
+    color: #F47D27;
+    font-weight: 400;
+    font-size: 12.8px;
+}
+
+.portfolio-link, .portfolio-link:visited {
+    color: #4A4E74;
+    text-decoration: none;
+}
+
 /* CONTACT SECTION STYLES */
 
 .contact-section {
