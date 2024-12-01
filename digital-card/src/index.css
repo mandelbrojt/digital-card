@@ -55,6 +55,7 @@ body {
     margin: 0;
 }
 
+/* MAIL BUTTON STYLES */
 .email-button {
     background-color: #FFFFFF;
 }
@@ -68,6 +69,7 @@ body {
     color: #374151;
 }
 
+/* LINKEDIN BUTTON STYLES */
 .linkedin-button {
     background-color: #297FE5;
 }
