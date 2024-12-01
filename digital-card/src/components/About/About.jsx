@@ -1,19 +1,37 @@
 import React from "react"
 
-function AboutInfo() {
-    return (
-        <div className="about-info">
-            <h3></h3>
-        </div>
-    )
+const descriptionText = `
+I'm a Frontend Developer with experience in the financial technology industry in Mexico.
+I develop user interfaces for cash management applications to help businesses manage their finances.
+`
+
+const interestsText = `
+#mountain-biking #nature #traveling
+#beer #live-music #gaming
+#edtech #fintech #robotics
+`
+
+// Factory function to create components
+function createAboutParagraph(tag, text) {
+    return function AboutParagraph() {
+        return (
+            <div className={`${tag}-container`}>
+                <h3 className={`${tag}-title`}>{tag.charAt(0).toUpperCase() + tag.slice(1)}</h3>
+                <p className={`${tag}-text`}>{text}</p>
+            </div>
+        )
+    }
 }
 
-function InterestsInfo() {
-    return (
-        <div className="interests-info"></div>
-    )
-}
+// Create components using the factory function
+const MyDescription = createAboutParagraph("description", descriptionText)
+const MyInterests = createAboutParagraph("interests", interestsText)
 
 export default function About() {
-    return <></>
+    return (
+        <>
+            <MyDescription />
+            <MyInterests />
+        </>
+    )
 }
