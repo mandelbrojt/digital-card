@@ -9,8 +9,8 @@
     - [X] Job Title
     - [X] Website link
 3. Contact section:
-    - [ ] Email button
-    - [ ] LinkedIn button
+    - [X] Email button
+    - [X] LinkedIn button
 4. About section:
     - [ ] Person's professional background
     - [ ] Person's interests
